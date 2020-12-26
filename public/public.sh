@@ -16,10 +16,10 @@ version_time=$(date "+%Y%m%d")                      # 更新时版本号时间: 
 default_path="./user/shared/defaults.h"             # 默认配置文件
 
 echo "修改 LAN IP 地址"
-sed -i "s/192.168.2/$lan_ip/g" $default_path
+sed -i "s/192.168.123/$lan_ip/g" $default_path
 
 echo "修改 WIFI 密码"
-sed -i "s/1234567890/$wifi_password/g" $default_path
+sed -i "s/55667788/$wifi_password/g" $default_path
 
 echo "修改用户名"
 sed -i 's/SYS_USER_ROOT		"admin"/SYS_USER_ROOT		"'$user_name'"/g' $default_path

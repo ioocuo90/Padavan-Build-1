@@ -6,12 +6,12 @@
 
 user_name="admin"                                   # 用户名
 user_password="admin"                               # 用户密码
-lan_ip="192.168.2"                                  # LAN 地址 别写后面的 .1
-wifi_2g_ssid="Padavan"                              # 2G 无线名称
-wifi_5g_ssid="Padavan_5G"                           # 5G 无线名称
-wifi_guest_2g_ssid="Padavan_Guset"                  # 2G 访客无线名称
-wifi_guest_5g_ssid="Padavan_Guest_5G"               # 5G 访客无线名称
-wifi_password="1234567890"                          # WIFI密码最少8位 空白为不设置
+lan_ip="192.168.123"                                  # LAN 地址 别写后面的 .1
+wifi_2g_ssid="2022"                              # 2G 无线名称
+wifi_5g_ssid="2021"                           # 5G 无线名称
+wifi_guest_2g_ssid="2022_Guset"                  # 2G 访客无线名称
+wifi_guest_5g_ssid="2021_Guest"               # 5G 访客无线名称
+wifi_password="55667788"                          # WIFI密码最少8位 空白为不设置
 version_time=$(date "+%Y%m%d")                      # 更新时版本号时间: 20201202
 default_path="./user/shared/defaults.h"             # 默认配置文件
 
